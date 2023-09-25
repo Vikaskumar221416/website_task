@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul a li{
+    color:white;
+    text-decoration: none;
+}
+ a :hover{
+    text-decoration: none;
+}
+
+/* slider css */
+.slider-container{
+    width:80%;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    display:flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slide{
+    flex:0 0 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slide.active{
+    transform: translateX(0);
+}
+.slider-controls{
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.prev-slide,.next-slide{
+    margin: 0 10px;
+}
+
+@media only screen and(max-width:600px) {
+    .car-slide
+    {
+        width: 100%;
+    }
+    
+}
+
+
+
+        

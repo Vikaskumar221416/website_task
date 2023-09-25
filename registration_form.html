@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragistration Form Using Java script</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel|Fauna+One">
+    <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+    
+    <div class="main">
+    <div class="outer">
+        <form onsubmit="return myfun()" method="post" name="form1">
+            <legend id="legend">.  Registration Form Validation. </legend>
+            <input type="text" id="Name"  name="text" placeholder=" * Name" autocomplete="off">
+            <span id ="username" class="formclear"></span>
+            <br>
+            <input type="email" id="mail" name="mail"  placeholder=" *  Email Address" autocomplete="off">
+            <span id ="mailid" class="formclear"></span><br>
+            <input type="text" id="country" name="country"  placeholder="  * Country" autocomplete="off">
+            <span id ="countryname" class="formclear"></span><br>
+            <input type="number" id="number" name="number"  placeholder=" *   Phone" autocomplete="off">
+            <span id ="Number" class="formclear"></span><br>
+            <input type="password" id="pass" name="password"  placeholder=" *  Password" autocomplete="off">
+            <span id ="Password" class="formclear"></span><br>
+            <input type="password" id="confirm" name="password"  placeholder=" * Confirm Password" autocomplete="off">
+            <span id ="confirmpass" class="formclear"></span><br>
+            <input type="Checkbox" class="check" name="check" required>  Lorem ipsum dolor sit amet consectet Lorem ipsum<br> dolor sit amet consectet.
+            <br><br>
+            <input type="submit" id="submit" value="create Account"><br><br>
+            <p style="letter-spacing: 2px;">Already Have an Account ? <a href="signin.html">Sign in</a></p>
+        </form>
+    </div>
+</div>
+    <script src="main.js">
+
+    </script>
+</body>
+</html>

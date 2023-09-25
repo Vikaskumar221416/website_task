@@ -1,0 +1,64 @@
+body
+        {
+            background-color:lightslategray;
+        }
+        .outer
+        {
+            min-width: 450px;
+            position: absolute;
+            min-height: 50%;
+            border-radius: 10px;
+            transform: translate(-60%,-50%);
+            top: 50%;
+            left: 50%;
+            background-color:white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        input[type="email"],input[type="password"]
+        {
+            padding: 10px;
+            margin: 10px;
+           border:2px solid black;
+           font-size: 13px;
+           box-shadow: 3px;
+           border-radius: 20px;
+           font-family: 'Fauna One', serif;
+           width:80%;
+           display: flex;
+           justify-content: space-between;
+           margin-left: 35px;
+           align-items: center;
+           font-weight: bold;
+           letter-spacing:1px;
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        #legend
+        {
+            
+            background-image: linear-gradient(to left,#90EE90,blue);
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin:20px;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 20px;
+            font-size: 25px;
+        }
+        input[type="submit"]
+        {
+            width: 80%;
+            font-size: 15px;
+            border-radius: 30px;
+            background-color: gray;
+            color: white;
+            cursor: pointer;
+            /* margin: 5px; */
+            padding: 20px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }

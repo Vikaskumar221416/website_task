@@ -1,0 +1,416 @@
+<html lang="en">
+    <head>
+ <title>Beauty Website</title>       
+    </head>
+    <!-- font awsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css file link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+            <div class="container">
+                <img src="images/beauty.jpeg" class="rounded-circle mx-3" width="30px">
+            <a class="navbar-brand" href="index.html">Beauty Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mb-3 mb-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">ABOUT US</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    PRODUCTS
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item bg-light" href="#about">Lipstick</a>
+                    <a class="dropdown-item" href="#male">Male Parfume</a>
+                    <a class="dropdown-item" href="#female">Female Parfume</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">SERVICES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#instruction">TEAMS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration_form.html">CONTACT </a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+          </nav>
+          <!-- end nav bar -->
+
+          <!-- start slideshow  -->
+
+         <div class="slider-container">
+            <div class="slider">
+                <div class="slide active" style="background-image:url(images/image7.jpg);"></div>
+                <div class="slide " style="background-image:url(images/image8.jpeg);"></div>
+                <div class="slide " style="background-image:url(images/image9.jpg);"></div>
+                <div class="slide " style="background-image:url(images/background.jpg);"></div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-slide">Prev</button>
+                <button class="next-slide">Next</button>
+            </div>
+         </div>
+
+           
+
+          <!-- start home -->
+          <section class="bg-dark text-light p-5  text-sm-start my-2" id="home">
+            <div class="container py-5">
+                <div class="d-sm-flex align-items-center justify-content-between py-5">
+                    <div>
+                        <h1>Welcome To <span class="text-warning">Beauty Website</span></h1>
+                        <h3 class="my-4">Beauty Product Items</h3>
+                        <p class="lead my-4">
+                            Beauty content marketing is an efficient advertising tactic that promotes your beauty products and services
+                            .Beauty content marketing is an efficient 
+                        </p>
+                        <!-- <button class="btn btn-primary btn-md">Contact Us</button> -->
+                        <button type="button" class="btn btn-primary my-3" id="contact" data-toggle="modal" data-target="#staticBackdrop">
+                            Contact
+                          </button>
+                    </div>
+                    <a href="#">
+                        <img  src="images/background.jpg" class="img-fluid" width="1000" title="background">
+                    </a>
+                </div>
+
+            </div>
+          </section>
+         <!-- start services section -->
+         <section class="p-5" id="services">
+            <h3 class="text-center">Services</h3>
+            <div class="container-fluid full-width-container py-3">
+                <div class="row text-center g-4">
+                    <div class="col-md my-3 col">
+                        <div class="card bg-dark text-light p-5">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                <img src="images/lipstick.jpg"  width="100px" height="100px" style="border-radius: 10px;">
+                                </div>
+                                <h3 class="card-title mb-3">Lipsticks</h3>
+                                <p class="card-text">
+                                    Welcome to a world where Beauty, Elegance, and Sophistication intertwine, where your true essence takes shape and meetsshape and meets 
+                                    
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md my-3 col" id="male">
+                        <div class="card bg-dark text-light p-5">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                <img src="images/menparfume.jpeg " alt="" width="100px" height="100px" style="border-radius: 10px;">
+                                </div>
+                                <h3 class="card-title mb-3">Men Parfume</h3>
+                                <p class="card-text">
+                                    Welcome to a world where Beauty, Elegance, and Sophistication intertwine, where your true essence takes shape and meets.
+                                    
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md my-3 col" id="female">
+                        <div class="card bg-dark text-light p-5">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                <img src="images/female.jpeg " alt="" width="100px" height="100px" style="border-radius: 10px;">
+                                </div>
+                                <h3 class="card-title mb-3">Women Parfume</h3>
+                                <p class="card-text">
+                                    Welcome to a world where Beauty, Elegance, and Sophistication intertwine, where your true essence takes shape and meets.
+
+                                </p>
+                                <a href="#" class="btn btn-primary">Read More.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- start about section -->
+         <section class="p-5" id="about">
+            <h3 class="text-center">About us</h3>
+            <div class="container py-5">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-md p-5">
+                        <a href="#"><img src="images/background.jpg" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md">
+                        <h2>Learn About Beauty Website</h2>
+                        <p>Welcome to a world where Beauty, Elegance, and Sophistication intertwine, where your true essence takes shape and meets unparalleled levels of Luxury. At Bergamot Beauté, we are dedicated to crafting this enchanting realm, where beauty transcends mere standards and becomes a true expression of self. Embrace your uniqueness and elevate it to provocative new heights</p>
+                        <p> meticulously designed product is crafted with unwavering attention to detail and engineered to endure, liberating you from the endless cycle of touch-ups. We take great pride in introducing Pure Parfum—a category of fragrances that has perfume oil concentrations ranging from 20% to 40%.</p>    
+                        <a href="#" class="btn btn-primary mt-3"> <i class="fa fa-angle-right mx-2"></i>Read More</a>             
+                    </div>
+                </div>
+            </div>
+           
+         </section>
+
+         <!-- start instruction of Director and Employee -->
+         <h3 class="text-center">Teams</h3>
+         <section class="p-5 bg-primary" id="instruction">
+            
+            <div class="container-fluid">
+                <p class="lead text-center text-white mb-5">
+                    Welcome to a world where Beauty, Elegance, and Sophistication intertwine, where your true essence takes shape and meets unparalleled levels of Luxury. At Bergamot Beauté, we are dedicated to crafting this enchanting realm, where beauty transcends mere standards and becomes a true expression of self. Embrace your uniqueness and elevate it to provocative new heights.
+                </p>
+                <div class="row g-4">
+                    <div class="col-md col-lg-3 my-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center p-5">
+                            <img src="images/director.jpeg" class="rounded-circle mb-3" width="50px" height="50px">
+                            <h3 class="card-title mb-3"> Nav Mehta CEO</h3>
+                            <p class="card-text">Welcome to a world where Beauty. 
+                                 </p>
+                                 <a href="#"><i class="fa fa-facebook text-dark mx-1 lead" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter text-dark mx-1 lead" aria-hidden="true"></i></a> 
+                                 <a href="#"><i class="fa fa-instagram text-dark mx-1 lead" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-linkedin text-dark mx-1 lead" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md col-lg-3 my-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center p-5">
+                            <img src="images/coo.jpeg" class="rounded-circle mb-3" width="50px" height="50px">
+                            <h3 class="card-title mb-3">Tushar kataria</h3>
+                            <p class="card-text">Welcome to a world where Beauty.
+                                 </p>
+                                 <a href="#"><i class="fa fa-facebook text-dark mx-1 lead" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter text-dark mx-1 lead" aria-hidden="true"></i></a> 
+                                 <a href="#"><i class="fa fa-instagram text-dark mx-1 lead" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-linkedin text-dark mx-1 lead" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md col-lg-3 my-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center p-5">
+                            <img src="images/my_pic.jpg" class="rounded-circle mb-3" width="50px" height="50px">
+                            <h3 class="card-title mb-3">Vikas kumar gangwar</h3>
+                            <p class="card-text">Myself Vikas Kumar Gangwar .
+                                 </p>
+                                 <a href="#"><i class="fa fa-facebook text-dark mx-1 lead" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter text-dark mx-1 lead" aria-hidden="true"></i></a> 
+                                 <a href="#"><i class="fa fa-instagram text-dark mx-1 lead" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-linkedin text-dark mx-1 lead" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md col-lg-3 my-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center p-5">
+                            <img src="images/director.jpeg" class="rounded-circle mb-3" width="50px" height="50px">
+                            <h3 class="card-title mb-3"> Nav Mehta CEO</h3>
+                            <p class="card-text">Welcome to a world where Beauty.</p>
+                                 <a href="#"><i class="fa fa-facebook text-dark mx-1 lead" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter text-dark mx-1 lead" aria-hidden="true"></i></a> 
+                                 <a href="#"><i class="fa fa-instagram text-dark mx-1 lead" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-linkedin text-dark mx-1 lead" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+           
+<!-- start footer section -->
+<h3 class="text-center">Footer </h3>
+<div class="container-fluid bg-dark my-3 py-5">
+    <footer bg-dark text-white py-5 pb-4>
+        <div class="continer text-center text-md-left">
+        <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <img src="images/beauty.jpeg"class="rounded-circle" width="50px"/>
+                <p class="text-white mt-3">
+                    Explore and learn more about everything from machin learning and global payments to scaling your team.
+                </p>
+                <div>
+            <a href="" class="me-4 mr-3 text-reset">
+              <i class="fa fa-facebook-f text-white"></i>
+            </a>
+            <a href="" class="me-4 mr-3 text-reset">
+              <i class="fa fa-twitter text-white"></i>
+            </a>
+            <a href="" class="me-4 mr-3 text-reset">
+              <i class="fa fa-google text-white"></i>
+            </a>
+            <a href="" class="me-4 mr-3 text-reset">
+              <i class="fa fa-instagram text-white"></i>
+            </a>
+            <a href="" class="me-4 mr-3 text-reset">
+              <i class="fa fa-linkedin text-white"></i>
+            </a>
+            <a href="" class="me-4  mr-3 text-reset">
+              <i class="fa fa-github text-white"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h3 class="text-uppercase mb-4 font-weight-bold text-warning">Company</h3>	
+        <p><a href="#" class="text-white" style="text-decoration: none"><i class="fa fa-angle-right mr-1"></i>About us</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none"><i class="fa fa-angle-right mr-1"></i>Services</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none"><i class="fa fa-angle-right mr-1"></i>Team</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none"><i class="fa fa-angle-right mr-1"></i>Project</a></p>
+        <p><a href="#contact" class="text-white" style="text-decoration: none"><i class="fa fa-angle-right mr-1"></i>Login</a></p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h3 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h3>
+    <p><a href="#" class="text-white" style="text-decoration: none"><i class="fa fa-angle-right mr-1"></i>Terms of services</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none"><i class="fa fa-angle-right mr-1"></i>Privacy Policy</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none"><i class="fa fa-angle-right mr-1"></i>Documentation</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none"><i class="fa fa-angle-right mr-1"></i>Widget</a></p>
+        <p><a href="#" class="text-white" style="text-decoration: none"><i class="fa fa-angle-right mr-1"></i>Changelog</a></p>
+    </div>
+    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h3 class="text-uppercase mb-4 font-weight-bold text-warning">Newsletter</h3>
+        <p class="text-white">
+            Sign up and recieve latest tips <br>via Email.
+        </p>
+        <p class="text-white ">Write your Email <i class='fa fa-asterisk' style='color: red;font-size: 10px;'></i></p>
+        <input type="email" style="width: 70%" class="text-center" placeholder="Email">
+    <button type="submit" class="btn btn-primary mb-2 mt-2 text-center" style="width:70%">Subscribe
+         </button>
+    </div>
+    </footer>
+    </div>
+    
+<!-- <footer id="contact" class="page-footer p-5 text-md-left">
+    <div class="container-fluid py-5 bg-dark text-white">
+        <div class="row g-4">
+            <div class="col-lg-2 col-md-6">
+                <h5 class="text-uppercase font-weight-bold mb-4 footer">Beauty Website</h5>
+                <p>Welcome to a world where Beauty.</p>
+                                <a href="#"><i class="fa fa-facebook text-white mx-1 lead" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter text-white mx-1 lead" aria-hidden="true"></i></a> 
+                                 <a href="#"><i class="fa fa-instagram text-white mx-1 lead" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-linkedin text-white mx-1 lead" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-lg-2 col-md-2 mx-auto">
+                <h5 class="text-uppercase font-weight-bold mb-4 footer">Shop</h5>
+                <ul class="list-unstyled">
+                    <a href="#male"><li class="mb-1">Perfumes for men</li></a>
+                    <a href="#female"><li class="mb-1">Perfumes for Women</li></a>
+                    <a href="#"><li class="mb-1">Combos</li></a>
+                    <a href="#"><li class="mb-1">Lipsticks</li></a>
+                    <a href="#"><li class="mb-1">Little Luxries</li></a>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 mx-auto">
+                <h5 class="text-uppercase font-weight-bold mb-4 footer">Company</h5>
+                <ul class="list-unstyled">
+                    <a href="#about"><li class="mb-1">About Us</li></a>
+                    <a href="#"><li class="mb-1">FAQs</li></a>
+                    <a href="#contact"><li class="mb-1">Contact</li></a>
+                    <a href="#"><li class="mb-1">Track your Order</li></a>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 mx-auto">
+                <h5 class="text-uppercase font-weight-bold mb-4 footer">Information</h5>
+                <ul class="list-unstyled">
+                    <a href="#services"><li class="mb-1">Terms Of Services</li></a>
+                    <a href="#"><li class="mb-1">Shipping of Policy</li></a>
+                    <a href="#"><li class="mb-1">Refund Policy</li></a>
+                    <a href="#"><li class="mb-1">Privacy Policy</li></a>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-2 mx-auto">
+                <h5 class="text-uppercase font-weight-bold mb-4 footer">Sign up and Save</h5>
+                 <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+                 <input type="email" name="email" placeholder="Enter your email" style="border: none;"><br>
+                 <a href="#"><i class="fa fa-facebook text-white mx-1 lead" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-twitter text-white mx-1 lead" aria-hidden="true"></i></a> 
+                 <a href="#"><i class="fa fa-instagram text-white mx-1 lead" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-linkedin text-white mx-1 lead" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-lg-2 col-md-2 mx-auto">
+                <h5 class="text-uppercase font-weight-bold mb-4 footer">REACH US </h5>
+                <p>Alluraa Beauty & Perfumery Pvt.Ltd</p>
+                 Plot No. 588 Udyog vihar,Phase V
+                <p class="my-4">Gurugram, Haryana 122016</p>
+                 <p>Call:+91 9319570926</p>
+                 <p>Email: care@baregamotbeaute.com</p>
+            </div>
+        </div>
+    </div>
+</footer> -->
+<!-- start footer bottom -->
+<footer class="p-3 bg-dark text-white text-center position-relative">
+    <div class="container">
+        <p class="mb-0">
+            Copyright &copy; 2023 Beauty Website
+        </p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+        </a>
+    </div>
+</footer>
+
+<!-- start modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Contact To Me</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <Fill class="modal-body">
+        <p>Fill Form</p>
+        <form>
+            <div class="mb-3">
+                <label for="firstname" class="col-form-label">
+                    First Name:
+                </label>
+                <input type="text" class="form-control" id="first_name" name="">
+            </div>
+            <div class="mb-3">
+                <label for="firstname" class="col-form-label">
+                    Last Name:
+                </label>
+                <input type="text" class="form-control" id="last_name" name="">
+            </div>
+            <div class="mb-3">
+                <label for="firstname" class="col-form-label">
+                    Email Id:
+                </label>
+                <input type="email" class="form-control" id="id" name="">
+            </div>
+            <div class="mb-3">
+                <label for="firstname" class="col-form-label">
+                    Mobile No:
+                </label>
+                <input type="number" class="form-control" id="number" name="">
+            </div>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+            <button type="button" class="btn btn-success float-right" data-dismiss="modal">Close</button>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="main.js"></script>
+
+    </body>
+</html>
